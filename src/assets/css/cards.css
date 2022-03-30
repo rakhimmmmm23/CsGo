@@ -1,0 +1,96 @@
+.about-pistol {
+  margin-top: 70px;
+}
+
+.about-pistol-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.flex-for-map {
+  display: flex;
+  justify-content: center;
+}
+
+.pistol-img {
+  display: flex;
+  justify-content: center;
+}
+
+.piston-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  color: #fffbff;
+  text-align: center;
+}
+
+.sell {
+  margin-top: 100px;
+}
+
+.sell-container {
+  width: 624px;
+  margin: auto;
+}
+
+.sell-flex {
+  display: flex;
+  align-items: center;
+}
+
+.again {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  width: 60%;
+  font-size: 16px;
+  padding: 19px;
+  line-height: 20px;
+  color: #fffbff;
+  background: none;
+  margin-left: 40px;
+  transition: 0.3s linear;
+  border-radius: 20px;
+}
+
+.again:hover {
+  background-color: #574ae2;
+}
+
+.again img {
+  margin-right: 10px;
+}
+
+.voskl {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border-radius: 12px;
+  height: 56px;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fffbff;
+}
+
+.voskl img {
+  margin-right: 10px;
+}
+
+.voskl span {
+  margin-left: 5px;
+  color: #574ae2;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.voskl span:hover {
+  color: #222a68;
+}

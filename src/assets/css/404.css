@@ -1,0 +1,26 @@
+.header-bg {
+  background-image: url("../img/cases/overpass3.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.four {
+  background: linear-gradient(to right, #8b0000 20%, red 30%, #8b0000 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: textShine 0.3s ease-in-out infinite;
+  margin-top: 70px;
+  text-align: center;
+  font-size: 350px;
+  color: #574ae2;
+}
+@keyframes textShine {
+  to {
+    background-position: 200%;
+  }
+}

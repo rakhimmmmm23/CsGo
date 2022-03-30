@@ -1,0 +1,24 @@
+.skipanim {
+  width: 149px;
+  height: 40px;
+  background: #040305;
+  border: 1px solid #222a68;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #fffbff;
+  transition: linear 0.3s;
+}
+.skipanim:hover {
+  background-color: #574ae2;
+}
+
+.wheel-bg {
+  background-image: url(../img/cases/WallpaperDog-20376243.jpg);
+  background-position: center;
+  background-size: cover;
+}
